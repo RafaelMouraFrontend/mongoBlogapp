@@ -1,0 +1,33 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.15.6",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18",
+    "passport-local": "^1.0.0",
+    "passport": "^0.4.0",
+    "password": "^0.1.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelMouraFrontend/mongoBlogapp.git"
+  },
+  "author": "RafaelMoura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelMouraFrontend/mongoBlogapp/issues"
+  },
+  "homepage": "https://github.com/RafaelMouraFrontend/mongoBlogapp#readme"
+}
