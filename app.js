@@ -45,7 +45,7 @@
   //Mongoose
     mongoose.Promise = global.Promise
     
-    mongoose.connect(db.mongoURI, {
+   // mongoose.connect(db.mongoURI, {
     useNewUrlParser: true 
   }).then(() => {
       console.log('Mongoose conected...');
